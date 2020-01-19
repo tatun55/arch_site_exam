@@ -2381,7 +2381,7 @@ section.lazy-placeholder:after {
   opacity: 1;
 }
 .cid-rNWMpOg0Us .mbr-gallery-item > div:hover .icon-focus {
-  top: calc(50% - 24px);
+  top: calc(50% - 16px);
 }
 .cid-rNWMpOg0Us .icon-focus:before {
   content: '+';
@@ -2390,7 +2390,8 @@ section.lazy-placeholder:after {
   transition: all .3s;
   font-size: 2rem !important;
   top: 50%;
-  left: calc(50% - 24px);
+  left: 50%;
+  transform: translate(-25%, -25%);
   width: 48px;
   padding: 0 8px;
   border-radius: 50%;
@@ -2413,6 +2414,29 @@ section.lazy-placeholder:after {
 .cid-rNWMpOg0Us .mbr-section-title,
 .cid-rNWMpOg0Us .underline {
   text-align: left;
+}
+.cid-rNWMpOg0Us .header {
+  position: relative;
+  padding-left: 16px;
+}
+.cid-rNWMpOg0Us .header:before {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 8px transparent;
+  border-bottom: solid 8px #000000;
+}
+.cid-rNWMpOg0Us .header:after {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: 2px;
+  width: 100%;
+  border-bottom: solid 2px #000000;
 }
 .cid-rNUv0SVLHh {
   padding-top: 75px;
