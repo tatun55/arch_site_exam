@@ -31,6 +31,7 @@
 </head>
 
 <body>
+    <!-- navここから -->
     <section class="modelMenu menu cid-rNKOmwBteK" once="menu" id="modelMenu">
         <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
             <div class="navbar-brand">
@@ -68,7 +69,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link text-white display-4" href="page2.html">成功モデルをさがす</a>
+                        <a class="nav-link link text-white display-4" href="model.html">成功モデルをさがす</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link link text-white display-4" href="#">
@@ -86,18 +87,20 @@
             </div>
         </nav>
     </section>
+    <!-- navここまで -->
 
-    <section class="extFeatures cid-rNRj9Qq4gI" id="extFeatures4-1e">
-        <div class="container">
-            <h1 class="mbr-section-title mbr-fonts-style display-5">過去に企業様にお喜びいただいた</h1>
-            <h1 class="mbr-section-title mbr-fonts-style display-5">成功モデルで価格を試算してみましょう</h1>
+    <!-- 概要説明ここから -->
+    <section class="row justify-content-center extFeatures cid-rNRj9Qq4gI" id="extFeatures4-1e">
+        <div class="col-10 container">
+            <h1 class="mbr-section-title mbr-fonts-style display-5">弊社を代表する “成功モデル” で</h1>
+            <h1 class="mbr-section-title mbr-fonts-style display-5">価格を試算してみましょう</h1>
             <div class="row">
                 <div class="card p-3 col-12 col-md-6 col-lg-4">
                     <div class="card-wrapper media-container-row media-container-row">
                         <div class="card-box">
                             <h2 class="number pb-1 mbr-fonts-style display-7"><span
                                     class="mbri-cursor-click mbr-iconfont" style="font-size: 24px;"></span></h2>
-                            <h4 class="card-title pb-3 mbr-fonts-style display-7">I. &nbsp;成功モデルをえらぶ</h4>
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">I. &nbsp;成功モデルを選ぶ</h4>
                         </div>
                     </div>
                 </div>
@@ -105,7 +108,7 @@
                 <div class="card p-3 col-12 col-md-6 col-12 col-md-6 col-lg-4">
                     <div class="card-wrapper media-container-row media-container-row">
                         <div class="card-box">
-                            <h2 class="number pb-1 mbr-fonts-style display-7"><span class="mbri-edit mbr-iconfont"
+                            <h2 class="number pb-1 mbr-fonts-style display-7"><span class="mbri-setting2 mbr-iconfont"
                                     style="font-size: 24px;"></span></h2>
                             <h4 class="card-title pb-3 mbr-fonts-style display-7">II. &nbsp;設定条件入力・変更</h4>
                         </div>
@@ -125,13 +128,14 @@
             </div>
         </div>
     </section>
+    <!-- 概要説明ここまで -->
+    <hr style="width:85%; border-top: 2px solid black !important;">
 
-    <hr style="width:75%; border-top: 2px solid black !important;">
-
+    <!-- mainここから -->
     <div class="container py-5">
         <div class="row justify-content-center">
             <div class="col-2">
-                <div class="step active">
+                <div id="step-1" class="step active">
                     <h5 class="display-7 header">STEP.1</h5>
                     <div class="py-3 text-center">
                         <h2 class="number pb-1 mbr-fonts-style display-7"><span class="mbri-cursor-click mbr-iconfont"
@@ -139,15 +143,15 @@
                         <h4 class="card-title pb-3 mbr-fonts-style display-7">成功モデルを選ぶ</h4>
                     </div>
                 </div>
-                <div class="step">
+                <div id="step-2" class="step">
                     <h5 class="display-7 header">STEP.2</h5>
                     <div class="py-3 text-center">
-                        <h2 class="number pb-1 mbr-fonts-style display-7"><span class="mbri-edit mbr-iconfont"
+                        <h2 class="number pb-1 mbr-fonts-style display-7"><span class="mbri-setting2 mbr-iconfont"
                                 style="font-size: 24px;"></span></h2>
                         <h4 class="card-title pb-3 mbr-fonts-style display-7">設定条件入力・変更</h4>
                     </div>
                 </div>
-                <div class="step">
+                <div id="step-3" class="step">
                     <h5 class="display-7 header">STEP.3</h5>
                     <div class="py-3 text-center">
                         <h2 class="number pb-1 mbr-fonts-style display-7"><span class="mbri-growing-chart mbr-iconfont"
@@ -157,7 +161,8 @@
                 </div>
             </div>
             <div class="col-10">
-                <section class="mbr-gallery mbr-slider-carousel extGallery cid-rNWMpOg0Us" id="extGallery2-1l"
+                <!-- モデル選択ここから -->
+                <section class="col-12 mbr-gallery mbr-slider-carousel extGallery cid-rNWMpOg0Us" id="extGallery2-1l"
                     style="padding:0;">
                     <div class="container">
                         <h2 class="mbr-section-title mbr-fonts-style align-center display-5">まずは、気になるモデルを選択してみましょう</h2>
@@ -165,7 +170,7 @@
                             <!-- Filter -->
                             <div class="mbr-gallery-filter container gallery-filter-active">
                                 <ul buttons="0">
-                                    <li class="mbr-gallery-filter-all d-none">
+                                    <li class="mbr-gallery-filter-all">
                                         <a class="btn btn-md btn-primary-outline active display-7" href="">すべて</a>
                                     </li>
                                 </ul>
@@ -174,277 +179,213 @@
                             <div class="mbr-gallery-row">
                                 <div class="mbr-gallery-layout-default">
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
-                                        data-tags="ホテル・旅館">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="0" data-toggle="modal"><img
-                                                src="assets/images/cimg8871-768x576-768x576.jpg" alt="" title=""><span
-                                                class="icon-focus"></span></div>
+                                        data-tags="ホテル・旅館" data-toggle="modal" data-target="#modal-model1">
+                                        <div data-slide-to="0"><img src="assets/images/cimg8871-768x576-768x576.jpg"
+                                                alt="" title=""><span class="icon-focus"></span></div>
                                     </div>
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="ホテル・旅館">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="3" data-toggle="modal"><img
+                                        <div data-slide-to="3"><img
                                                 src="assets/images/7c80ab1d98dbfe7c37bd52d2323e5469-352x198-264x198.jpeg"
                                                 alt="" title=""><span class="icon-focus"></span></div>
                                     </div>
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="ブライダル">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="5" data-toggle="modal"><img
+                                        <div data-slide-to="5"><img
                                                 src="assets/images/s-cimg4796-e1541151415324-750x1000-711x533.jpeg"
                                                 alt="" title=""><span class="icon-focus"></span></div>
                                     </div>
 
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="レストラン・バー">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="6" data-toggle="modal"><img
-                                                src="assets/images/rest-p01-1-680x463-617x463.jpeg" alt=""
-                                                title=""><span class="icon-focus"></span></div>
+                                        <div data-slide-to="6"><img src="assets/images/rest-p01-1-680x463-617x463.jpeg"
+                                                alt="" title=""><span class="icon-focus"></span></div>
                                     </div>
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="レストラン・バー">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="7" data-toggle="modal"><img
-                                                src="assets/images/rest-p01-2-680x452-602x452.jpeg" alt=""
-                                                title=""><span class="icon-focus"></span></div>
+                                        <div data-slide-to="7"><img src="assets/images/rest-p01-2-680x452-602x452.jpeg"
+                                                alt="" title=""><span class="icon-focus"></span></div>
                                     </div>
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="レストラン・バー">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="8" data-toggle="modal"><img
-                                                src="assets/images/rest-p01-3-680x510-680x510.jpg" alt="" title=""><span
-                                                class="icon-focus"></span></div>
+                                        <div data-slide-to="8"><img src="assets/images/rest-p01-3-680x510-680x510.jpg"
+                                                alt="" title=""><span class="icon-focus"></span></div>
                                     </div>
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="レストラン・バー">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="9" data-toggle="modal"><img
-                                                src="assets/images/rest-p04-1-680x463-617x463.jpeg" alt=""
-                                                title=""><span class="icon-focus"></span></div>
+                                        <div data-slide-to="9"><img src="assets/images/rest-p04-1-680x463-617x463.jpeg"
+                                                alt="" title=""><span class="icon-focus"></span></div>
                                     </div>
-
-
 
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="介護施設・病院">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="1" data-toggle="modal">
+                                        <div data-slide-to="1">
                                             <img src="assets/images/kaigo-a-768x576-768x576.jpeg" alt="" title="">
                                             <span class="icon-focus"></span>
                                         </div>
                                     </div>
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="その他">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="2" data-toggle="modal"><img
-                                                src="assets/images/dsc09089-680x382-509x382.jpeg" alt="" title=""><span
-                                                class="icon-focus"></span></div>
+                                        <div data-slide-to="2"><img src="assets/images/dsc09089-680x382-509x382.jpeg"
+                                                alt="" title=""><span class="icon-focus"></span></div>
                                     </div>
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="その他">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="4" data-toggle="modal"><img
-                                                src="assets/images/other-p04-1-680x463-617x463.jpeg" alt=""
-                                                title=""><span class="icon-focus"></span></div>
+                                        <div data-slide-to="4"><img src="assets/images/other-p04-1-680x463-617x463.jpeg"
+                                                alt="" title=""><span class="icon-focus"></span></div>
                                     </div>
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="ブライダル">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="10" data-toggle="modal"><img
+                                        <div data-slide-to="10"><img
                                                 src="assets/images/s-interpark-1000x750-800x600.jpg" alt=""
                                                 title=""><span class="icon-focus"></span></div>
                                     </div>
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="ブライダル">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="11" data-toggle="modal"><img
-                                                src="assets/images/jirei-mie1-1000x749-800x599.jpg" alt=""
-                                                title=""><span class="icon-focus"></span></div>
+                                        <div data-slide-to="11"><img src="assets/images/jirei-mie1-1000x749-800x599.jpg"
+                                                alt="" title=""><span class="icon-focus"></span></div>
                                     </div>
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="ブライダル">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="12" data-toggle="modal"><img
-                                                src="assets/images/img-1908-680x510-604x453.jpeg" alt="" title=""><span
-                                                class="icon-focus"></span></div>
+                                        <div data-slide-to="12"><img src="assets/images/img-1908-680x510-604x453.jpeg"
+                                                alt="" title=""><span class="icon-focus"></span></div>
                                     </div>
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="その他">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="13" data-toggle="modal"><img
-                                                src="assets/images/rimg0796-1280x960-800x600.jpg" alt="" title=""><span
-                                                class="icon-focus"></span></div>
+                                        <div data-slide-to="13"><img src="assets/images/rimg0796-1280x960-800x600.jpg"
+                                                alt="" title=""><span class="icon-focus"></span></div>
                                     </div>
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="その他">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="14" data-toggle="modal"><img
-                                                src="assets/images/dscn0848-1024x768-800x600.jpeg" alt="" title=""><span
-                                                class="icon-focus"></span></div>
+                                        <div data-slide-to="14"><img src="assets/images/dscn0848-1024x768-800x600.jpeg"
+                                                alt="" title=""><span class="icon-focus"></span></div>
                                     </div>
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="ホテル・旅館">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="15" data-toggle="modal"><img
-                                                src="assets/images/s-cimg7860-1024x768-800x600.jpg" alt=""
-                                                title=""><span class="icon-focus"></span></div>
+                                        <div data-slide-to="15"><img src="assets/images/s-cimg7860-1024x768-800x600.jpg"
+                                                alt="" title=""><span class="icon-focus"></span></div>
                                     </div>
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="ホテル・旅館">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="16" data-toggle="modal"><img
+                                        <div data-slide-to="16"><img
                                                 src="assets/images/jirei-aichi1-1-1000x749-800x599.jpg" alt=""
                                                 title=""><span class="icon-focus"></span></div>
                                     </div>
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="介護施設・病院">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="17" data-toggle="modal"><img
-                                                src="assets/images/cimg8468-768x576-768x576.jpg" alt="" title=""><span
-                                                class="icon-focus"></span></div>
+                                        <div data-slide-to="17"><img src="assets/images/cimg8468-768x576-768x576.jpg"
+                                                alt="" title=""><span class="icon-focus"></span></div>
                                     </div>
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="介護施設・病院">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="18" data-toggle="modal"><img
-                                                src="assets/images/cimg8482-768x576-768x576.jpg" alt="" title=""><span
-                                                class="icon-focus"></span></div>
+                                        <div data-slide-to="18"><img src="assets/images/cimg8482-768x576-768x576.jpg"
+                                                alt="" title=""><span class="icon-focus"></span></div>
                                     </div>
                                     <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false"
                                         data-tags="介護施設・病院">
-                                        <div href="#lb-extGallery2-1l" data-slide-to="19" data-toggle="modal"><img
-                                                src="assets/images/img-3639-768x576-768x576.jpg" alt="" title=""><span
-                                                class="icon-focus"></span></div>
+                                        <div data-slide-to="19"><img src="assets/images/img-3639-768x576-768x576.jpg"
+                                                alt="" title=""><span class="icon-focus"></span></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
                         </div>
-                    </div><!-- Lightbox -->
-                    <div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1"
-                        data-keyboard="true" data-interval="false" id="lb-extGallery2-1l">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item"><img src="assets/images/kaigo-a-768x576.jpeg" alt=""
-                                                title="">
+                    </div>
+
+                </section>
+                <!-- モデル選択ここまで -->
+
+                <!-- 条件入力ここから -->
+                <section class="form cid-rNUv0SVLHh" id="formbuilder-1j" style="padding:0;">
+                    <div class="container">
+                        <div class="row">
+                            <!-- フォームここから -->
+                            <div class="col-8 mx-auto mbr-form" data-form-type="formoid">
+                                <div class="row mb-2">
+                                    <h4 class="col-5 display-5">設定条件を入力・変更</h4>
+                                    <span class="col-7 display-4">
+                                        <div class="row justify-content-center pt-1">
+                                            <div class="col">
+                                                <span class="mbri-refresh mbr-iconfont" style="font-size: 12px;">
+                                                </span>
+                                                デフォルトに戻す
+                                            </div>
+                                            <div class="col">
+                                                <span class="mbri-setting mbr-iconfont" style="font-size: 13px;">
+                                                </span>
+                                                詳細設定を表示
+                                            </div>
                                         </div>
-                                        <div class="carousel-item"><img src="assets/images/cimg8871-768x576.jpg" alt=""
-                                                title="">
+                                    </span>
+                                </div>
+                                <div class="form-inline">
+                                    <div class="input-group col-12 mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" style="width:200px;">
+                                                <input class="ml-1 mr-3" name="radio" type="radio" id="room_num"
+                                                    checked>
+                                                <label for="room_num">部屋数</label>
+                                            </span>
                                         </div>
-                                        <div class="carousel-item"><img src="assets/images/dsc09089-680x382.jpeg" alt=""
-                                                title="">
+                                        <input type="number" class="form-control" id="inlineFormInputGroup"
+                                            placeholder="数値を入力" value="50">
+                                    </div>
+                                    <div class="input-group col-12 mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" style="width:200px;">
+                                                <input class="ml-1 mr-3" name="radio" type="radio" id="rand_area">
+                                                <label for="rand_area">土地面積（㎡）</label>
+
+                                            </span>
                                         </div>
-                                        <div class="carousel-item"><img
-                                                src="assets/images/7c80ab1d98dbfe7c37bd52d2323e5469-352x198.jpeg" alt=""
-                                                title="">
+                                        <input type="number" class="form-control" id="inlineFormInputGroup"
+                                            placeholder="数値を入力" value="500">
+                                    </div>
+                                    <div class="input-group col-12 mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" style="width:200px;">
+                                                <input class="ml-1 mr-3" name="radio" type="radio" id="build_area">
+                                                <label for="build_area">床面積（㎡）</label>
+                                            </span>
                                         </div>
-                                        <div class="carousel-item"><img src="assets/images/other-p04-1-680x463.jpeg"
-                                                alt="" title=""></div>
-                                        <div class="carousel-item"><img
-                                                src="assets/images/s-cimg4796-e1541151415324-750x1000.jpeg" alt=""
-                                                title=""></div>
-                                        <div class="carousel-item"><img src="assets/images/rest-p01-1-680x463.jpeg"
-                                                alt="" title="">
-                                        </div>
-                                        <div class="carousel-item"><img src="assets/images/rest-p01-2-680x452.jpeg"
-                                                alt="" title="">
-                                        </div>
-                                        <div class="carousel-item"><img src="assets/images/rest-p01-3-680x510.jpg"
-                                                alt="" title="">
-                                        </div>
-                                        <div class="carousel-item"><img src="assets/images/rest-p04-1-680x463.jpeg"
-                                                alt="" title="">
-                                        </div>
-                                        <div class="carousel-item"><img src="assets/images/s-interpark-1000x750.jpg"
-                                                alt="" title=""></div>
-                                        <div class="carousel-item"><img src="assets/images/jirei-mie1-1000x749.jpg"
-                                                alt="" title="">
-                                        </div>
-                                        <div class="carousel-item"><img src="assets/images/img-1908-680x510.jpeg" alt=""
-                                                title="">
-                                        </div>
-                                        <div class="carousel-item"><img src="assets/images/rimg0796-1280x960.jpg" alt=""
-                                                title="">
-                                        </div>
-                                        <div class="carousel-item"><img src="assets/images/dscn0848-1024x768.jpeg"
-                                                alt="" title="">
-                                        </div>
-                                        <div class="carousel-item active"><img
-                                                src="assets/images/s-cimg7860-1024x768.jpg" alt="" title=""></div>
-                                        <div class="carousel-item"><img src="assets/images/jirei-aichi1-1-1000x749.jpg"
-                                                alt="" title=""></div>
-                                        <div class="carousel-item"><img src="assets/images/cimg8468-768x576.jpg" alt=""
-                                                title="">
-                                        </div>
-                                        <div class="carousel-item"><img src="assets/images/cimg8482-768x576.jpg" alt=""
-                                                title="">
-                                        </div>
-                                        <div class="carousel-item"><img src="assets/images/img-3639-768x576.jpg" alt=""
-                                                title="">
-                                        </div>
-                                    </div><a class="carousel-control carousel-control-prev" role="button"
-                                        data-slide="prev" href="#lb-extGallery2-1l"><span class="mbri-left mbr-iconfont"
-                                            aria-hidden="true"></span><span class="sr-only">Previous</span></a><a
-                                        class="carousel-control carousel-control-next" role="button" data-slide="next"
-                                        href="#lb-extGallery2-1l"><span class="mbri-right mbr-iconfont"
-                                            aria-hidden="true"></span><span class="sr-only">Next</span></a><a
-                                        class="close" href="#" role="button" data-dismiss="modal"><span
-                                            class="sr-only">Close</span></a>
+                                        <input type="number" class="form-control" id="inlineFormInputGroup"
+                                            placeholder="数値を入力" value="2500">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-around">
+                                    <button type="submit" class="btn btn-dark display-4">
+                                        <span class="mbri-undo mbr-iconfont mbr-iconfont-btn" style="font-size: 16px;">
+                                        </span>
+                                        前に戻る
+                                    </button>
+                                    <button type="submit" class="btn btn-primary display-4">
+                                        <span class="mbri-growing-chart mbr-iconfont mbr-iconfont-btn"
+                                            style="font-size: 16px;">
+                                        </span>
+                                        この条件で試算
+                                    </button>
                                 </div>
                             </div>
+                            <!-- フォームここまで -->
+
+                            <!-- モデル表示ここから -->
+                            <div class="col-4">
+                                <h5 class="display-5">選択中のモデル</h5>
+                                <div class="img-wrapper" style="padding:.5rem 1rem;width:100%;">
+                                    <img style="width:100% !important;" src="assets/images/cimg8871-768x576-768x576.jpg"
+                                        alt="" title="">
+                                </div>
+                                <p class="display-4 pl-3">モダン洋室 Type.A</p>
+                            </div>
+                            <!-- モデル表示ここまで -->
                         </div>
                     </div>
                 </section>
-
+                <!-- 条件入力ここまで -->
             </div>
-
         </div>
     </div>
-
-    <section class="form cid-rNUv0SVLHh d-none" id="formbuilder-1j" style="padding:0 !important;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                    <!--Formbuilder Form-->
-                    <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler"
-                        data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true"
-                            value="FwA/ZKHPEOH4mt/oAL2de+VtJpLJYVTDXiHYm0xIm7LbZ+NTTGTwwWi3DBd89lFZYVOyvsADWVcu5scVlnhT5YEZCrJ4qDMINPgue/vgeFMKVFKdEtQiH0lqV2uFHe/X.56AIGdupUY2jZ7t1zUdjETaDfC+9Q9sIMnt7qom2JeL+GWA95RtthK8J2U3Be3WynUlq9piByWLLiXdI0e307GXYD8E58HI6ZT0v9Xb+415MdpbJSQ8aRItktBvtWjwF">
-                        <div class="form-row">
-                            <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">
-                                Thanks for
-                                filling out the form!</div>
-                            <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...!
-                                some problem!</div>
-                        </div>
-                        <div class="dragArea form-row">
-                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                <h4 class="mbr-fonts-style display-5">設定条件を入力・変更</h4>
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                <p class="mbr-fonts-style display-4">デフォルトに戻す</p>
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                <hr>
-                            </div>
-                            <div data-for="number" class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                <label for="number-formbuilder-1j"
-                                    class="form-control-label mbr-fonts-style display-7">土地面積（㎡）</label>
-                                <input type="number" name="number" placeholder="Number" data-form-field="number"
-                                    class="form-control display-7" max="100000" min="100" step="1" value="500"
-                                    id="number-formbuilder-1j">
-                            </div>
-                            <div data-for="number1" class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                <label for="number1-formbuilder-1j"
-                                    class="form-control-label mbr-fonts-style display-7">床面積（㎡）</label>
-                                <input type="number" name="number1" placeholder="Number" data-form-field="number1"
-                                    class="form-control display-7" max="100000" min="100" step="1" value="500"
-                                    id="number1-formbuilder-1j">
-                            </div>
-                            <div data-for="number2" class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                <label for="number2-formbuilder-1j"
-                                    class="form-control-label mbr-fonts-style display-7">部屋数</label>
-                                <input type="number" name="number2" placeholder="Number" max="1000" min="10" step="1"
-                                    data-form-field="number2" class="form-control display-7" value="100"
-                                    id="number2-formbuilder-1j">
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12">
-                                <p class="mbr-fonts-style display-4">詳細設定</p>
-                            </div>
-                            <div class="col-auto">
-                                <button type="submit" class="btn btn-danger display-4">変更</button>
-                            </div>
-                        </div>
-                    </form>
-                    <!--Formbuilder Form-->
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <!-- mainここまで -->
 
     <section class="extFooter cid-rNJUsnT8VF" id="extFooter6-12">
         <div class="container">
@@ -536,6 +477,270 @@
         </div>
     </section>
 
+    <!-- modalここから -->
+    <div class="modal fade" id="modal-model1" tabindex="-1" role="dialog" aria-labelledby="modal-model1Label">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title display-5" id="modal-model1Label"><span class="header">モダン洋室 Type.A</span>
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="閉じる">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="row justify-content-center display-7">
+                    <div class="col-11">
+                        <div class="row">
+                            <div class="col-6">
+                                説明：<br>
+                                カップルやご夫婦に人気のモダン洋室。<br>
+                                洗練された空間で贅沢な時間を演出できます。
+                            </div>
+                            <div class="col-6">
+                                スペック：<br>
+                                ターゲット - 一般<br>
+                                広さ - XXX㎡以上<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer" style="background-color: white; justify-content: center;">
+                    <button id="select-btn" type="button" class="btn btn-primary display-4"><span
+                            class="mbri-cursor-click mbr-iconfont" style="font-size: 14px;"></span>このモデルを選択</button>
+                </div>
+                <!-- タブ部分 -->
+                <ul id="myTab" class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a href="#overview" id="overview-tab" class="nav-link active display-7" role="tab"
+                            data-toggle="tab" aria-controls="overview" aria-selected="true">モデル概観</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#items" id="items-tab" class="nav-link display-7" role="tab" data-toggle="tab"
+                            aria-controls="items" aria-selected="false">使用アイテム一覧</a>
+                    </li>
+                </ul>
+
+                <!-- パネル部分 -->
+                <div id="myTabContent" class="tab-content mt-3">
+                    <div id="overview" class="tab-pane fade active show" role="tabpanel" aria-labelledby="overview-tab">
+                        <div class="modal-body extGallery testimonials-slider cid-rNWSfw0bYr" data-interval="false"
+                            id="extGallery6-1n">
+                            <div class="row justify-content-center">
+                                <div class="carousel slide slides" role="listbox" data-pause="true"
+                                    data-keyboard="false" data-ride="false" data-interval="false">
+                                    <ol class="carousel-indicators" style="margin-bottom:0;">
+                                        <li class="li1" data-slide-to="0"></li>
+                                        <li class="li2" data-slide-to="1"></li>
+                                        <li class="li3" data-slide-to="2"></li>
+                                        <li class="li4" data-slide-to="3"></li>
+                                        <li class="li5" data-slide-to="4"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item ">
+                                            <div class="media-container-row">
+                                                <div class="col-md-12">
+
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-md-6">
+                                                            <div class="text-box align-left">
+
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="text-box align-right">
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="wrap-img ">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item ">
+                                            <div class="media-container-row">
+                                                <div class="col-md-12">
+
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-md-6">
+                                                            <div class="text-box align-left">
+
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="text-box align-right">
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="wrap-img ">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item ">
+                                            <div class="media-container-row">
+                                                <div class="col-md-12">
+
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-md-6">
+                                                            <div class="text-box align-left">
+
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="text-box align-right">
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="wrap-img ">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item ">
+                                            <div class="media-container-row">
+                                                <div class="col-md-12">
+
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-md-6">
+                                                            <div class="text-box align-left">
+
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="text-box align-right">
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="wrap-img ">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item ">
+                                            <div class="media-container-row">
+                                                <div class="col-md-12">
+
+                                                    <div class="row justify-content-center">
+                                                        <div class="col-md-6">
+                                                            <div class="text-box align-left">
+
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="text-box align-right">
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="wrap-img ">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="items" class="tab-pane fade" role="tabpanel" aria-labelledby="items-tab">
+                        <section class="extGallery cid-rNWTVGojVn" id="extGallery8-1o">
+
+
+
+
+
+                            <div class="container">
+
+                                <div class="row">
+
+
+
+                                    <div class="item col-3">
+                                        <div class="img-wrap">
+                                            <span class="mobi-mbri-plus mobi-mbri mbr-iconfont mbr-iconfont-btn"></span>
+                                            <img src="assets/images/table11-254x170.jpeg" alt="" title="">
+                                        </div>
+                                    </div>
+
+                                    <div class="item col-3">
+                                        <div class="img-wrap">
+                                            <span class="mobi-mbri-plus mobi-mbri mbr-iconfont mbr-iconfont-btn"></span>
+                                            <img src="assets/images/table12-254x170.jpg" alt="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="item col-3">
+                                        <div class="img-wrap">
+                                            <span class="mbr-iconfont mbr-iconfont-btn mobi-mbri-plus mobi-mbri"></span>
+                                            <img src="assets/images/292-1-254x191.jpg" alt="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="item col-3">
+                                        <div class="img-wrap">
+                                            <span class="mobi-mbri-plus mobi-mbri mbr-iconfont mbr-iconfont-btn"></span>
+                                            <img src="assets/images/i1b-254x191.jpg" alt="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="item col-3">
+                                        <div class="img-wrap">
+                                            <span class="mobi-mbri-plus mobi-mbri mbr-iconfont mbr-iconfont-btn"></span>
+                                            <img src="assets/images/148-3-254x191.jpg" alt="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="item col-3">
+                                        <div class="img-wrap">
+                                            <span class="mobi-mbri-plus mobi-mbri mbr-iconfont mbr-iconfont-btn"></span>
+                                            <img src="assets/images/141-3w4500xd700xh1250-254x191.jpg" alt="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="item col-3">
+                                        <div class="img-wrap">
+                                            <span class="mobi-mbri-plus mobi-mbri mbr-iconfont mbr-iconfont-btn"></span>
+                                            <img src="assets/images/a9b9358b890c749b021f231f123d3e85-254x191.jpg" alt=""
+                                                title="">
+                                        </div>
+                                    </div>
+                                    <div class="item col-3">
+                                        <div class="img-wrap">
+                                            <span class="mobi-mbri-plus mobi-mbri mbr-iconfont mbr-iconfont-btn"></span>
+                                            <img src="assets/images/74bc8a05-a-254x339.jpg" alt="" title="">
+                                        </div>
+                                    </div>
+
+                                    <div class="item col-3">
+                                        <div class="img-wrap">
+                                            <span class="mobi-mbri-plus mobi-mbri mbr-iconfont mbr-iconfont-btn"></span>
+                                            <img src="assets/images/72bc9a27-254x339.jpg" alt="" title="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+    </div>
+    <!-- modalここまで -->
 
     <script src="assets/web/assets/jquery/jquery.min.js"></script>
     <script src="assets/popper/popper.min.js"></script>
@@ -555,9 +760,17 @@
     <script src="assets/gallery/player.min.js"></script>
     <script src="assets/gallery/script.js"></script>
     <script src="assets/formoid/formoid.min.js"></script>
-
-
-
+    <script>
+        $('#select-btn').on("click", function () {
+            $('#modal-model1').modal('hide');
+            $('#extGallery2-1l').hide();
+            $('#formbuilder-1j').fadeIn(750);
+            $('#step-1').removeClass("active");
+            $('#step-2').addClass("active");
+        });
+    </script>
 </body>
+
+
 
 </html>

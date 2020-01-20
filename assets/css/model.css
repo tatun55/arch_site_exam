@@ -25,20 +25,78 @@
 .step{
     border-radius: 4px;
     margin-bottom:24px;
-    padding:12px 12px;
+    padding:0 12px 12px;
     opacity:0.4;
 }
 
 .step.active{
     opacity:1;
-    border:solid 1px black;
     /* color:white;
     background-color: #666a99; */
 }
 
-.step.active .header:before {
-    border-bottom: solid 5px rgb(255, 255, 255);
+.modal-content {
+    padding:1rem 1.5rem;
+    height:auto;
 }
-.step.active .header:after {
-    border-bottom: solid 1px rgb(255, 255, 255);
+
+.modal-dialog .carousel-inner {
+    height:auto;
 }
+
+.fade {
+    transition: opacity .3s;
+}
+
+.modal span.header:after {
+    width:120%;
+}
+
+#formbuilder-1j {
+    display: none;
+}
+
+/* .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+} */
+
+.form-control {
+    letter-spacing: 2px;
+    font-size: 13px;
+    height: 33px;
+    border: 1px solid #ccc !important;
+    border-radius: 2px;
+    transition: all 0.4s ease-in-out 0s;
+    box-shadow: none !important;
+    padding:0 1rem;
+    min-height: 0;
+}
+
+.input-group-text{
+    letter-spacing: 2px;
+    font-size: 13px;
+    height: 33px;
+    border: 1px solid #ccc !important;
+    border-radius: 2px;
+    transition: all 0.4s ease-in-out 0s;
+    box-shadow: none !important;
+    padding:0 0.75rem;
+    min-height: 0;
+}
+
+
