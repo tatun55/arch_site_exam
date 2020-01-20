@@ -397,7 +397,7 @@
                                         data-toggle="tab" aria-controls="all" aria-selected="true">
                                         <span class="icon54-v2-star-shield-2 mbr-iconfont"
                                             style="font-size: 14px; margin-right:3px;"></span>
-                                        総額プライス
+                                        総額
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -405,7 +405,7 @@
                                         data-toggle="tab" aria-controls="part" aria-selected="false">
                                         <span class="mbri-numbered-list mbr-iconfont"
                                             style="font-size: 14px; margin-right:3px;"></span>
-                                        個別プライス
+                                        個別
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -420,13 +420,252 @@
 
                             <!-- パネル部分 -->
                             <div id="myTabContent" class="tab-content mt-3">
+                                <!-- total price -->
                                 <div id="all" class="tab-pane fade active show" role="tabpanel"
                                     aria-labelledby="all-tab">
+                                    <div class="row justify-content-center display-7">
+                                        <div class="col-5 text-right">
+                                            <p>モデル</p>
+                                            <p>数量</p>
+                                            <p>他社価格</p>
+                                            <p class="display-5">ADA価格</p>
+                                        </div>
+                                        <div class="col-7 text-left">
+                                            <p>モダン洋室 Type.A</p>
+                                            <p>50 セット</p>
+                                            <p>10,000万円</p>
+                                            <p class="display-5">
+                                                <span id="price-dummy">- 円</span>
+                                                <span id="total-price">3,000万円</span>
+                                                <span id="off-amount" style="color:#d63d3d;">70% OFF</span>
+                                            </p>
+                                        </div>
+
+                                        <!-- <div class="display-7">モデル: モダン洋室 Type.A </div>
+                                        <div class="display-7">数量: 50部屋 </div>
+                                        <div class="display-7">他社価格 : 10,000万円 </div>
+                                        <div id="total-price" class="display-7">ADA価格 : 3,000万円 </div> -->
+                                    </div>
+
                                     <div id="chart"></div>
                                 </div>
+                                <!-- /total price -->
+
+                                <!-- particial price -->
                                 <div id="part" class="tab-pane fade" role="tabpanel" aria-labelledby="part-tab">
-                                    いいいいいいいい
+                                    <section class="progress-bars2 cid-rO8dWooE4h" id="extProgressBars7-1q" style="padding:0;">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-3">
+                                                    <div class="item_img p-2">
+                                                        <img src="assets/images/table11-254x170.jpeg" alt="" title="">
+                                                    </div>
+                                                    <div class="item_img p-2">
+                                                        <img src="assets/images/table12-254x170.jpg" alt="" title="">                                                    </div>
+                                                    <div class="item_img p-2">
+                                                        <img src="assets/images/292-1-254x191.jpg" alt="" title="">
+                                                    </div>
+                                                    <div class="item_img p-2">
+                                                        <img src="assets/images/i1b-254x191.jpg" alt="" title="">
+                                                    </div>
+                                                    <div class="item_img p-2">
+                                                        <img src="assets/images/148-3-254x191.jpg" alt="" title="">
+                                                    </div>
+                                                    <div class="item_img p-2">
+                                                        <img src="assets/images/141-3w4500xd700xh1250-254x191.jpg" alt="" title="">
+                                                    </div>
+                                                    <div class="item_img p-2">
+                                                        <img src="assets/images/a9b9358b890c749b021f231f123d3e85-254x191.jpg" alt="" title="">
+                                                    </div>
+                                                    <div class="item_img p-2">
+                                                        <img src="assets/images/74bc8a05-a-254x339.jpg" alt="" title="">
+                                                    </div>
+                                                    <div class="item_img p-2">
+                                                        <img src="assets/images/72bc9a27-254x339.jpg" alt="" title="">
+                                                    </div>
+                                                </div>
+                                                <div class="progress_elements col-md-7 display-7">
+                                                    <div class="progress1 pb-5">
+                                                        <div class="display-7">国内価格 <span class="float-right">75,000円</span></div>
+                                                        <div class="display-7">A.D.A価格 <span class="float-right">25,000円</span></div>
+                                                        <div class="title-wrap">
+                                                            <div class="progressbar-title mbr-fonts-style display-7">
+                                                                <p>
+                                                                    丸テーブル
+                                                                </p>
+                                                            </div>
+                                                            <div class="progress_value mbr-fonts-style display-7">
+                                                                <div class="progressbar-number">
+                                                                </div>
+                                                                <span>% OFF</span>
+                                                            </div>
+                                                        </div>
+                                                        <progress class="progress progress-primary" max="100"
+                                                            value="75">
+                                                        </progress>
+                                                    </div>
+
+                                                    <div class="progress2 pb-5">
+                                                        <div class="display-7">国内価格 <span class="float-right">75,000円</span></div>
+                                                        <div class="display-7">A.D.A価格 <span class="float-right">25,000円</span></div>
+                                                        <div class="title-wrap">
+                                                            <div class="progressbar-title mbr-fonts-style display-7">
+                                                                <p>ドレッサー</p>
+                                                            </div>
+                                                            <div class="progress_value mbr-fonts-style display-7">
+                                                                <div class="progressbar-number">
+                                                                </div>
+                                                                <span>% OFF</span>
+                                                            </div>
+                                                        </div>
+                                                        <progress class="progress progress-primary" max="100"
+                                                            value="61">
+                                                        </progress>
+                                                    </div>
+
+                                                    <div class="progress3 pb-5">
+                                                        <div class="display-7">国内価格 <span class="float-right">75,000円</span></div>
+                                                        <div class="display-7">A.D.A価格 <span class="float-right">25,000円</span></div>
+
+                                                        <div class="title-wrap">
+                                                            <div class="progressbar-title mbr-fonts-style display-7">
+                                                                <p>
+                                                                    パーテーション
+                                                                </p>
+                                                            </div>
+                                                            <div class="progress_value mbr-fonts-style display-7">
+                                                                <div class="progressbar-number">
+                                                                </div>
+                                                                <span>% OFF</span>
+                                                            </div>
+                                                        </div>
+                                                        <progress class="progress progress-primary" max="100"
+                                                            value="47">
+                                                        </progress>
+                                                    </div>
+
+
+                                                    <div class="progress4 pb-5">
+                                                        <div class="display-7">国内価格 <span class="float-right">75,000円</span></div>
+                                                        <div class="display-7">A.D.A価格 <span class="float-right">25,000円</span></div>
+                                                        <div class="title-wrap">
+                                                            <div class="progressbar-title mbr-fonts-style display-7">
+                                                                <p>
+                                                                    ベッド
+                                                                </p>
+                                                            </div>
+                                                            <div class="progress_value mbr-fonts-style display-7">
+                                                                <div class="progressbar-number">
+                                                                </div>
+                                                                <span>% 0FF</span>
+                                                            </div>
+                                                        </div>
+                                                        <progress class="progress progress-primary " max="100"
+                                                            value="70">
+                                                        </progress>
+                                                    </div>
+
+                                                    <div class="progress5 pb-5">
+                                                        <div class="display-7">国内価格 <span class="float-right">75,000円</span></div>
+                                                        <div class="display-7">A.D.A価格 <span class="float-right">25,000円</span></div>
+                                                        <div class="title-wrap">
+                                                            <div class="progressbar-title mbr-fonts-style display-7">
+                                                                <p>
+                                                                    ヘッドボード</p>
+                                                            </div>
+                                                            <div class="progress_value mbr-fonts-style display-7">
+                                                                <div class="progressbar-number">
+                                                                </div>
+                                                                <span>% OFF</span>
+                                                            </div>
+                                                        </div>
+                                                        <progress class="progress progress-primary" max="100"
+                                                            value="54">
+                                                        </progress>
+                                                    </div>
+
+                                                    <div class="progress6 pb-5">
+                                                        <div class="display-7">国内価格 <span class="float-right">75,000円</span></div>
+                                                        <div class="display-7">A.D.A価格 <span class="float-right">25,000円</span></div>
+                                                        <div class="title-wrap">
+                                                            <div class="progressbar-title mbr-fonts-style display-7">
+                                                                <p>
+                                                                    バーカウンター
+                                                                </p>
+                                                            </div>
+                                                            <div class="progress_value mbr-fonts-style display-7">
+                                                                <div class="progressbar-number">
+                                                                </div>
+                                                                <span>% OFF</span>
+                                                            </div>
+                                                        </div>
+                                                        <progress class="progress progress-primary" max="100"
+                                                            value="72">
+                                                        </progress>
+                                                    </div>
+                                                    <div class="progress6 pb-5">
+                                                        <div class="display-7">国内価格 <span class="float-right">75,000円</span></div>
+                                                        <div class="display-7">A.D.A価格 <span class="float-right">25,000円</span></div>
+                                                        <div class="title-wrap">
+                                                            <div class="progressbar-title mbr-fonts-style display-7">
+                                                                <p>
+                                                                    イタリア製チェア
+                                                                </p>
+                                                            </div>
+                                                            <div class="progress_value mbr-fonts-style display-7">
+                                                                <div class="progressbar-number">
+                                                                </div>
+                                                                <span>% OFF</span>
+                                                            </div>
+                                                        </div>
+                                                        <progress class="progress progress-primary" max="100"
+                                                            value="72">
+                                                        </progress>
+                                                    </div>
+                                                    <div class="progress6 pb-5">
+                                                        <div class="display-7">国内価格 <span class="float-right">75,000円</span></div>
+                                                        <div class="display-7">A.D.A価格 <span class="float-right">25,000円</span></div>
+                                                        <div class="title-wrap">
+                                                            <div class="progressbar-title mbr-fonts-style display-7">
+                                                                <p>
+                                                                    スタッキングチェア
+                                                                </p>
+                                                            </div>
+                                                            <div class="progress_value mbr-fonts-style display-7">
+                                                                <div class="progressbar-number">
+                                                                </div>
+                                                                <span>% OFF</span>
+                                                            </div>
+                                                        </div>
+                                                        <progress class="progress progress-primary" max="100"
+                                                            value="72">
+                                                        </progress>
+                                                    </div>
+                                                    <div class="progress6 pb-5">
+                                                        <div class="display-7">国内価格 <span class="float-right">75,000円</span></div>
+                                                        <div class="display-7">A.D.A価格 <span class="float-right">25,000円</span></div>
+                                                        <div class="title-wrap">
+                                                            <div class="progressbar-title mbr-fonts-style display-7">
+                                                                <p>
+                                                                    ホテルレストランチェア
+                                                                </p>
+                                                            </div>
+                                                            <div class="progress_value mbr-fonts-style display-7">
+                                                                <div class="progressbar-number">
+                                                                </div>
+                                                                <span>% OFF</span>
+                                                            </div>
+                                                        </div>
+                                                        <progress class="progress progress-primary" max="100"
+                                                            value="72">
+                                                        </progress>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
                                 </div>
+                                <!-- /particial price -->
                                 <div id="repay" class="tab-pane fade" role="tabpanel" aria-labelledby="repay-tab">
                                     ううう
                                 </div>
@@ -580,7 +819,7 @@
                             aria-controls="items" aria-selected="false">
                             <span class="mbri-numbered-list mbr-iconfont"
                                 style="font-size: 14px; margin-right:3px;"></span>
-                            使用アイテム一覧
+                            商品一覧
                         </a>
                     </li>
                 </ul>
@@ -820,8 +1059,10 @@
     <script src="assets/gallery/player.min.js"></script>
     <script src="assets/gallery/script.js"></script>
     <script src="assets/formoid/formoid.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.12/c3.min.js"></script>
+    <script src="assets/js/chart1.js"></script>
     <script>
         $('#formbuilder-1j,#extGallery2-1l').on('animationend', function () {
             $(this).removeClass("animated fadeInUp fadeOutDown");
@@ -856,55 +1097,6 @@
             $(this).addClass("active").find('input').prop('checked', true);
             $(this).siblings().removeClass("active");
         });
-
-        //chart
-        var chart = c3.generate({
-            data: {
-                x: 'x',
-                columns: [
-                    ['x', '国内建材販売 A社', '国内建材販売 B社', 'A.D.A'],
-                    ['工場品出し価格', 15, 15, 15],
-                ],
-                type: 'bar',
-                order: null
-            },
-
-            transition: {
-                duration: 2000
-            },
-
-            axis: {
-                x: {
-                    type: 'category'
-                }
-            },
-        });
-
-        var time_interval = 3000;
-        setTimeout(function () {
-            chart.load({
-                columns: [['販売会社 経費・利益', 36, 34, 15]]
-            });
-        }, time_interval);
-        setTimeout(function () {
-            chart.groups([['工場品出し価格', '販売会社 経費・利益']])
-        }, time_interval * 2);
-        setTimeout(function () {
-            chart.load({
-                columns: [['国内代理店 経費・利益', 25, 26]]
-            });
-        }, time_interval * 3);
-        setTimeout(function () {
-            chart.groups([['工場品出し価格', '販売会社 経費・利益', '国内代理店 経費・利益']])
-        }, time_interval * 4);
-        setTimeout(function () {
-            chart.load({
-                columns: [['大手商社店 経費・利益', 24, 25]]
-            });
-        }, time_interval * 5);
-        setTimeout(function () {
-            chart.groups([['工場品出し価格', '販売会社 経費・利益', '国内代理店 経費・利益', '大手商社店 経費・利益']])
-        }, time_interval * 6);
 
     </script>
 

@@ -122,3 +122,78 @@
 }
 
 
+
+/* .c3-target-工場品出し価格 .c3-shape-2{
+    fill:#454970 !important;
+    opacity: 1;
+}
+
+.c3-target-販売会社-経費・利益 .c3-shape-2{
+    fill:#666999 !important;
+    opacity: 1;
+} */
+
+.c3-target-コストカット .c3-shape-2{
+    position: relative;
+    stroke:#d63d3d !important;
+    stroke-width: 2px;
+    stroke-dasharray: 2px !important;
+    fill:white !important;
+}
+
+/* .c3-shape-0 {
+    opacity: 0.6 !important;
+}
+
+.c3-shape-1 {
+    opacity: 0.6 !important;
+}
+
+.c3-shape-2 {
+    opacity: .8 !important;
+} */
+
+.c3-legend-item-コストカット .c3-legend-item-tile {
+    stroke: #d63d3d;
+    stroke-width: 2px;
+    stroke-dasharray: 2px !important;
+} 
+
+.c3-legend-item-コストカット .c3-legend-item-tile {
+    stroke: #d63d3d;
+    stroke-width: 2px;
+    stroke-dasharray: 2px !important;
+} 
+
+.total-data p {
+    line-height: 1.1rem;
+    padding-bottom: 0;
+}
+
+#off-amount {
+    display: none;
+}
+#total-price {
+    display: none;
+}
+
+.item_img {
+    text-align: right;
+}
+
+.item_img img {
+    width:103px;
+    height:103px;
+}
+
+.progressbar-number:before {
+    color:#d63d3d;
+}
+
+.progress_value {
+    color:#d63d3d;
+}
+
+.progress-primary {
+    background-color:#ccc !important;
+}
