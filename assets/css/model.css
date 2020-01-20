@@ -54,26 +54,14 @@
 
 #formbuilder-1j {
     display: none;
+    animation-duration: .5s;
+    /* animation-delay: .5s; */
 }
 
-/* .form-control {
-    display: block;
-    width: 100%;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #555;
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-} */
+#extGallery2-1l {
+    animation-duration: .5s;
+    /* animation-delay: .5s; */
+}
 
 .form-control {
     letter-spacing: 2px;
@@ -87,7 +75,7 @@
     min-height: 0;
 }
 
-.input-group-text{
+.input-group-text {
     letter-spacing: 2px;
     font-size: 13px;
     height: 33px;
@@ -97,6 +85,40 @@
     box-shadow: none !important;
     padding:0 0.75rem;
     min-height: 0;
+}
+
+.modal-body {
+    padding:0;
+}
+
+#extGallery8-1o {
+    padding:0;
+}
+
+.mbr-gallery-filter, .cid-rNWMpOg0Us .mbr-gallery-filter {
+    padding-bottom: 0;
+}
+
+.input-group {
+    opacity: .6;
+}
+
+.input-group.active {
+    opacity: 1;
+}
+
+#chart-section {
+    /* display: none; */
+    animation-duration: 2s;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-tabs .nav-link.active{
+    border-color: #ccc;
+    border-bottom-color:transparent;
 }
 
 
