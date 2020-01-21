@@ -108,8 +108,7 @@
 }
 
 #chart-section {
-    /* display: none; */
-    animation-duration: 2s;
+    display: none;
 }
 
 .nav-tabs {
