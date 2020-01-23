@@ -4,7 +4,7 @@ function chart_generate() {
         data: {
             x: 'x',
             columns: [
-                ['x', '国内建材販売 A社', '国内建材販売 B社', 'ADA'],
+                ['x', '国内建材販売 A社', '国内建材販売 B社', 'xxx'],
                 ['工場品出し価格', 0, 0, 0],
             ],
             type: 'bar',

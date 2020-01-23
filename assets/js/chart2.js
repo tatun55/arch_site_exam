@@ -3,7 +3,7 @@ function chart2_generate() {
     var i = 0;
 
     let array1 = ['投資なし'];
-    let array2 = ['A.D.A'];
+    let array2 = ['xxx'];
     let array3 = ['他社'];
     for (let index = 0; index < 12; index++) {
         array1.push(50 * index);
@@ -38,7 +38,7 @@ function chart2_generate() {
     });
 
     let array4 = ['投資なし'];
-    let array5 = ['A.D.A'];
+    let array5 = ['xxx'];
     let array6 = ['他社'];
     for (let index = 12; index < 24; index++) {
         array4.push(50 * index);
@@ -60,7 +60,7 @@ function chart2_generate() {
     i++;
 
     let array7 = ['投資なし'];
-    let array8 = ['A.D.A'];
+    let array8 = ['xxx'];
     let array9 = ['他社'];
     for (let index = 24; index < 36; index++) {
         array7.push(50 * index);
@@ -82,7 +82,7 @@ function chart2_generate() {
     i++;
 
     let array10 = ['投資なし'];
-    let array11 = ['A.D.A'];
+    let array11 = ['xxx'];
     let array12 = ['他社'];
     for (let index = 36; index < 48; index++) {
         array10.push(50 * index);
@@ -104,7 +104,7 @@ function chart2_generate() {
     i++;
 
     let array13 = ['投資なし'];
-    let array14 = ['A.D.A'];
+    let array14 = ['xxx'];
     let array15 = ['他社'];
     for (let index = 48; index < 60; index++) {
         array13.push(50 * index);
@@ -131,8 +131,8 @@ function chart2_generate() {
     //             columns: [
     //                 ['x', '2013-01-11', '2013-01-21'],
     //                 ['投資なし', 500, 200],
-    //                 ['A.D.A', 100, 300],
-    //                 ['A.D.A', 200, 120],
+    //                 ['xxx', 100, 300],
+    //                 ['xxx', 200, 120],
     //             ],
     //             duration: 1500,
     //             done: function () {
@@ -140,8 +140,8 @@ function chart2_generate() {
     //                     columns: [
     //                         ['x', '2013-02-11', '2013-02-12', '2013-02-13', '2013-02-14'],
     //                         ['投資なし', 200, 300, 100, 250],
-    //                         ['A.D.A', 100, 90, 40, 120],
-    //                         ['A.D.A', 100, 100, 300, 500]
+    //                         ['xxx', 100, 90, 40, 120],
+    //                         ['xxx', 100, 100, 300, 500]
     //                     ],
     //                     length: 0,
     //                     duration: 1500,
@@ -150,8 +150,8 @@ function chart2_generate() {
     //                             columns: [
     //                                 ['x', '2013-03-01', '2013-03-02'],
     //                                 ['投資なし', 200, 300],
-    //                                 ['A.D.A', 150, 250],
-    //                                 ['A.D.A', 100, 100]
+    //                                 ['xxx', 150, 250],
+    //                                 ['xxx', 100, 100]
     //                             ],
     //                             length: 2,
     //                             duration: 1500,
@@ -160,16 +160,16 @@ function chart2_generate() {
     //                                     columns: [
     //                                         ['x', '2013-03-21', '2013-04-01'],
     //                                         ['投資なし', 500, 200],
-    //                                         ['A.D.A', 100, 150],
-    //                                         ['A.D.A', 200, 400]
+    //                                         ['xxx', 100, 150],
+    //                                         ['xxx', 200, 400]
     //                                     ],
     //                                     to: '2013-03-01',
     //                                     duration: 1500,
     //                                     done: function () {
     //                                         ['x', '2012-12-29', '2012-12-30', '2012-12-31'],
     //                                         ['投資なし', 230, 300, 330],
-    //                                         ['A.D.A', 190, 230, 200],
-    //                                         ['A.D.A', 90, 130, 180],
+    //                                         ['xxx', 190, 230, 200],
+    //                                         ['xxx', 90, 130, 180],
     //                                     }
     //                                 });
     //                             }
